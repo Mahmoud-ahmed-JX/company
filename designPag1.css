@@ -1,0 +1,61 @@
+/* .backg{
+     width: 100%;
+     height: 77vh;
+     background-color: rgba(240, 248, 255, 0.144);
+} */
+
+
+.page1{
+     background-color: rgba(0, 0, 0, 0.404);
+     width: 10%;
+     
+     margin: 20vh auto ;
+     border-style: groove;
+     border-width: 10px;
+     border-color: black;
+    
+     border-radius: 10px;
+     box-shadow: 0 0 15px white;
+     padding: 5%;
+     
+}
+.page1 .button{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(253, 240, 240, 0.295);
+    color: white;
+    padding: 14px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 22px;
+    /* light box button */
+    box-shadow: 0 0 10px white;
+}
+/* light button when touch */
+.page1 .button:hover{
+     background-color: rgba(14, 15, 15, 0.452);
+}
+
+body{
+     width: 100%;
+     height: 77vh;
+     background-image: url(photo/background.avif);
+     background-size: cover;
+     position: relative;
+     margin: 0;
+     backdrop-filter: blur(3px);
+}
+
+/* body::before{
+     width: 100%;
+     height: 100%;
+     position:absolute;
+     background-color: rgba(240, 248, 255, 0.144);
+} */
+
+
+a{
+     color: rgba(240, 248, 255, 0);
+}

@@ -1,0 +1,47 @@
+<html>
+
+     <head>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="styleTable.css">
+     </head>
+     <body>
+          <div class="box">
+               <input type="text" placeholder="Search..." id="search" class="search">
+               <a href="#">
+                    <i class="fas fa-Search"></i>
+               </a>
+               <select id="filter">
+                    <option value="default">default</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="active">active</option>
+                    <option value="inactive">inactive</option>
+                    <option value="performace">best Performace</option>
+               </select>
+
+          </div>
+
+          <table class="data"  border="1">
+               <thead>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                    <th>Performance Rate</th>
+                    <th>Age</th>
+                    <th>Date Of Birth</th>
+                    <th>Gender</th>
+                    <th>Skills</th>
+                    <th>Status</th>
+                    <th>Department Id</th>
+                    <th>Project Id</th>
+               </thead>
+               <tbody id="details"></tbody>
+          </table>
+          <a href="index.html">
+               <button type="button">Back</button>
+           </a>
+           <script src="empTable.js"></script>
+     </body>
+</html>

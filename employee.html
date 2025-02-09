@@ -1,0 +1,120 @@
+<html>
+     <head>
+          <link rel="stylesheet" href="styleEmp.css ">
+
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     </head>
+     <body>
+         
+          <div class="fontCon">
+          <form action="" class="formm">
+
+               
+               <h3>Employee Data</h3>
+
+               
+               <div class="disgnform">
+                    
+                         <label for="id">Id:</label>
+                         <input type="text" id="id" class="id" name="id" placeholder="Enter ID" required>
+                    
+              
+          </div>
+
+          <div class="disgnform">
+                    
+               <label for="name">Name:</label>
+               <input type="text" id="name"  name="name" placeholder="Enter Name" required>
+          
+    
+</div>
+
+              
+               <div class="disgnform">
+                    <label for="salary">Salary:</label>
+                    <input type="number" id="salary" name="salary" placeholder="Enter Salary" required>
+              
+          </div>
+               <div class="disgnform">
+              
+               <label for="performanceRate">Performance Rate:</label>
+               <input type="text" id="performanceRate" name="performanceRate" placeholder="Enter Performance Rate" required>
+              
+          </div>
+                
+          <div class="disgnform">
+               
+                    <label for="age">Age:</label>
+               <input type="number" id="age" name="age" placeholder="Enter Age" required>
+               
+          </div>
+
+          <div class="disgnform">
+              
+               <label for="dateOfBirth">Date Of Birth:</label>
+               <input type="date" name="dateOfBirth" id="dateOfBirth" required>
+          </div>
+              
+
+          <div class="disgnform g">
+
+              
+               <label for="gender">Gender:</label>
+               <input type="radio" id="gender" name="gender" class="choise" value="male" >
+               <label for="gender">Male</label>
+               <input type="radio" id="gender" name="gender" class="choise" value="female">
+               <label for="gender">Female</label>
+              
+          </div>
+
+          <div class="disgnform skil">
+              
+               <label for="skills">Skills:</label>
+               <input type="text" id="skillsInput" name="skill" placeholder="Enter your skills">
+               <!-- addskills() name a function  -->
+               <button type="button" conclick="addSkill()" id="skill_btn" class="btnskill" >Add Skills</button>
+               <ul id="skillsList"></ul>
+               <input type="hidden" name="skills" id="skills">
+              
+          </div>
+
+          <div class="disgnform">
+               
+                     <label>Status:</label>
+                     <input type="radio" id="status" name="Status" class="choise" value="active">
+                          <label for="status">Active</label>
+                     <input type="radio" id="status" name="Status" class="choise" value="inactive">
+                     <label for="status">Inactive</label>
+                
+          </div>
+              
+          
+          
+
+    
+              
+               <button type="button" class="submit">Submit</button>
+               <a href="EmpData.html">
+                    <button type="button">Show Data</button>
+               </a>
+               <a href="addtion.html">
+                    <button type="button">Back</button>
+               </a>
+         
+          </div>
+     
+
+
+               
+              
+          </form>
+     </div>
+     <script src="main.js"></script>
+     </body>
+</html>
